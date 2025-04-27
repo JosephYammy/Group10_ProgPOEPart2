@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#A6FCF1" /> <!-- Button fill color (light teal) -->
+
+    <stroke
+        android:width="2dp"
+        android:color="#000000" /> <!-- Stroke color (black) -->
+
+    <corners android:radius="100dp" /> <!-- Pill shape -->
+</shape>
