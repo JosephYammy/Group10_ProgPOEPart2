@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "vcmsa.projects.budgettrackergroup10"
     compileSdk = 35
 
@@ -20,6 +21,14 @@ android {
     defaultConfig {
         applicationId = "vcmsa.projects.budgettrackergroup10"
         minSdk = 24
+=======
+    namespace = "vcmsa.projects.group10progpoepart2"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "vcmsa.projects.group10progpoepart2"
+        minSdk = 21
+>>>>>>> e68ae72ca55ad4e262f9f27e13c88445b2318733
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -55,5 +64,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+<<<<<<< HEAD
 
+=======
+>>>>>>> e68ae72ca55ad4e262f9f27e13c88445b2318733
 }
